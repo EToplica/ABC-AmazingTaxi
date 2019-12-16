@@ -2,10 +2,12 @@
 # yarn lockfile v1
 
 
-"@agm/core@1.0.0-beta.5":
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@agm/core/-/core-1.0.0-beta.5.tgz#6dbceb666b2dbc4a868b97e1340a3faceb5f2113"
-  integrity sha512-LVENJqtBZEWpX+uJkGI0zgg+Xkm2KkktQm4ojZozArbeNvQkVL6pqVc04Mme6vvOzwJpD1cET5w4byC8Xaq1QQ==
+"@agm/core@^1.0.0-beta.5":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@agm/core/-/core-1.1.0.tgz#6f8dcbac068f681fe4fa9b0a0cbf660588025911"
+  integrity sha512-cMvmm3+3/uuVFurLv1FKhE0/6ssIlDvYBjQFCi8ELg7h0OY2MkIU1MXWr7z+f/xZ08E936I4eeddni6k4yUTIA==
+  dependencies:
+    tslib "^1.9.0"
 
 "@angular-devkit/architect@0.800.6":
   version "0.800.6"
@@ -197,6 +199,13 @@
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.0.3.tgz#21282ba5616ee1641c2cbec9d34afd1c3482e44d"
   integrity sha512-22s82QDRQ72K4vMYuNh3NAN+da9uanwoydnfKlp2rb9dZAb2QVX9NN6gSoMrkSSr2O9KTP6pWiw6A3/MW8sGRA==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/http@^7.2.15":
+  version "7.2.15"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-7.2.15.tgz#a32bea9e67e99eef88150085aeebbe7aeecd39eb"
+  integrity sha512-TR7PEdmLWNIre3Zn8lvyb4lSrvPUJhKLystLnp4hBMcWsJqq5iK8S3bnlR4viZ9HMlf7bW7+Hm4SI6aB3tdUtw==
   dependencies:
     tslib "^1.9.0"
 
@@ -4221,10 +4230,10 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash-es@~4.17.5:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
-  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+lodash-es@~4.17.14:
+  version "4.17.14"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.14.tgz#12a95a963cc5955683cee3b74e85458954f37ecc"
+  integrity sha512-7zchRrGa8UZXjD/4ivUWP1867jDkhzTG2c/uj739utSd7O/pFFdxspCemIFKEEjErbcqRzn8nKnGsi7mvTgRPA==
 
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
@@ -5548,7 +5557,7 @@ quill-delta@^3.6.2:
     extend "^3.0.2"
     fast-diff "1.1.2"
 
-quill@~1.3.6:
+quill@^1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/quill/-/quill-1.3.7.tgz#da5b2f3a2c470e932340cdbf3668c9f21f9286e8"
   integrity sha512-hG/DVzh/TiknWtE6QmWAF/pxoZKYxfe3J/d/+ShUWkDvvkZQVTPeVmUJVu1uE6DDooC4fWTiCLh84ul89oNz5g==
@@ -5559,6 +5568,11 @@ quill@~1.3.6:
     extend "^3.0.2"
     parchment "^1.1.4"
     quill-delta "^3.6.2"
+
+random-location@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/random-location/-/random-location-1.1.2.tgz#123b3b995c23f0fe90713b5ef881dfd7358daeda"
+  integrity sha512-AaYmdgB6lgTLG02XZ7sHrpIQnjRuYy5aL7WFS+CBYDLGJG8oPWAasJMoyGsBkFu5CmFasxdJ478+GlJfYTsL0A==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
